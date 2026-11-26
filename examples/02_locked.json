@@ -1,0 +1,16 @@
+{
+  "floor_language": "ja",
+  "booths": [
+    {"id": "A", "output_language": "en", "understands": ["ja"]},
+    {"id": "B", "output_language": "fr", "understands": ["ja", "en"]},
+    {"id": "C", "output_language": "de", "understands": ["ja"]}
+  ],
+  "existing": [
+    {"booth": "A", "source": "ja"},
+    {"booth": "B", "source": "en"},
+    {"booth": "C", "source": "ja"}
+  ],
+  "locks": [
+    {"booth": "B", "source": "en"}
+  ]
+}
